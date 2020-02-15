@@ -19,4 +19,4 @@ Feel free to create a pull request if there are any improvements or additions yo
 
 ## License
 
-This project is licensed by the MIT License. It was originally based on markup from various sources, but has I have since adapted it to better fit my needs. I have unfortunately forgotten where I got the original template from. If anyone knows, please let me know and I will give credit accordingly!
+This project is licensed under the MIT License. It was originally based on markup from various sources, but I have since adapted it to better fit my needs. I have unfortunately forgotten where I got the original template from. If anyone knows, please let me know and I will give credit accordingly!
