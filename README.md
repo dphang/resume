@@ -20,7 +20,7 @@ The resume is broken up into the following sections:
 3. Edit `resume.tex` with your information.
 4. Click `Recompile` and download your generated PDF.
 
-I currently use Overleaf for my resumes since it manages all the dependent packages. If you'd like to compile it locally, please follow instructions (https://www.latex-project.org/get/) for installing your LaTeX environment and any dependencies.
+I currently use Overleaf for my resumes since it manages the entire LaTeX environment. If you'd like to compile it locally, please follow instructions (https://www.latex-project.org/get/) for installing your LaTeX environment and any dependencies.
 
 ## Sample Resume
 
