@@ -1,4 +1,4 @@
-# Resume
+## Resume
 
 A simple, modern, one-page tech or software engineer resume template in LaTeX, in Lato font.
 
@@ -9,14 +9,14 @@ It's worked well for me when applying to both small and large tech companies. Fo
 * Skills: list out programming languages, software and platforms you've used.
 * Education: list out your college and degrees.
 
-# Compiling
+## Compiling
 
 I currently use Overleaf to compile it into a PDF.
 
-# Contributing
+## Contributing
 
-Feel free to create a pull request if there are any design improvements you'd like to make
+Feel free to create a pull request if there are any improvements or additions you'd like to make.
 
-# License
+## License
 
 This project is licensed by the MIT License. It was originally based on markup from various sources, but has I have since adapted it to better fit my needs. I have unfortunately forgotten where I got the original template from. If anyone knows, please let me know and I will give credit accordingly!
