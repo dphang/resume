@@ -1,8 +1,8 @@
 ## Resume
 
-A simple, modern, one-page tech or software engineer resume template in LaTeX, in Lato font.
+A modern one-page tech or software engineer resume template for LaTeX, in Lato font.
 
-It's worked well for me when applying to both small and large tech companies. For simplicity, I've kept the sample resume to one page and the source code to one `resume.tex` file.
+It's worked well for me when applying to both small and large tech companies. For simplicity, I've kept the example resume to one page and the source code to one `resume.tex` file.
 
 * About: phone number, email address, GitHub profile, and LinkedIn profile, spaced evenly across the line.
 * Experience: list out your work and other experience.
