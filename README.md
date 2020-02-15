@@ -38,6 +38,8 @@ I'm planning to add some enhancements in the future:
 
 Feel free to create a pull request if there are any improvements or additions you'd like to make.
 
-## License
+## License and Credits
 
-This project is licensed under the MIT License. It was originally based on markup from various sources, but I have since adapted it to better fit my needs. I have unfortunately forgotten where I got the original template from. If anyone knows, please let me know and I will give credit accordingly!
+This project is licensed under the MIT License.
+
+The resume template is based on another template, but I have since adapted it to better fit my needs. Unfortunately, after many years I've forgotten where the original code came. If anyone knows, please let me know and I will give credit accordingly.
