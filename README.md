@@ -2,7 +2,7 @@
 
 A simple, modern, one-page* tech or software engineer PDF resume template for LaTeX, in Lato font.
 
-\* I personally use a one-page resume as it forces you to list only the most important things, and because companies may not read your resume if it's too long. This resume has worked well for me when applying to both small and large tech companies.
+\* I recommend keeping a resume to a single page as it forces you to list only the most important things, and because companies may not read your resume if it's too long. Personally, this resume has worked well when applying to both small and large tech companies. Of course, feel free to extend it to two or even three pages if you have significant experience.
 
 The resume is broken up into the following sections:
 
