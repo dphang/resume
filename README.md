@@ -35,6 +35,7 @@ I'm planning to add some enhancements in the future:
 1. Guide for compiling this locally
 2. CircleCI automation to ensure the `.tex` compiles
 3. Add LaTeX macros to make it easier to update the resume
+4. Web app for standard resume creation
 
 ## Contributing
 
