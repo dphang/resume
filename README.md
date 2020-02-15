@@ -13,7 +13,7 @@ It's worked well for me when applying to both small and large tech companies. Fo
 
 ### Overleaf
 
-1. Create a new project in Overleaf 
+1. Create a new project in Overleaf.
 2. Copy `resume.tex` into your project.
 3. Edit `resume.tex` with your information.
 4. Click `Recompile` and download your generated PDF.
