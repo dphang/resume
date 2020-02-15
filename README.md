@@ -9,9 +9,16 @@ It's worked well for me when applying to both small and large tech companies. Fo
 * Skills: list out programming languages, software and platforms you've used.
 * Education: list out your college and degrees.
 
-## Compiling
+## Usage
 
-I currently use Overleaf to compile it into a PDF, as it manages all the packages. If you'd like to compile it locally, you would have to ensure you have all the dependent packages (e.g `fontawesome`).
+### Overleaf
+
+1. Create a new project in Overleaf 
+2. Copy `resume.tex` into your project.
+3. Edit `resume.tex` with your information.
+4. Click `Recompile` and download your generated PDF.
+
+I currently use Overleaf for my resumes since it manages all the dependent packages. If you'd like to compile it locally, please follow instructions for installing your LaTeX environment and any dependencies.
 
 ## Sample Resume
 
