@@ -4,7 +4,9 @@ A modern one-page tech or software engineer resume template for LaTeX, in Lato f
 
 It's worked well for me when applying to both small and large tech companies. For simplicity, I've kept the example resume to one page and the source code to one `resume.tex` file.
 
-* About: phone number, email address, GitHub profile, and LinkedIn profile, spaced evenly across the line.
+The resume is broken up into the following sections:
+
+* About: list name, location, phone number, email address, GitHub profile and LinkedIn profile.
 * Experience: list out your work and other experience.
 * Skills: list out programming languages, software and platforms you've used.
 * Education: list out your college and degrees.
