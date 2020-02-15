@@ -1,6 +1,3 @@
-% Modern one-page tech or software engineer resume template in LaTeX
-% Authors: Daniel Phang and other contributors
-
 \documentclass[11pt,letterpaper]{article}
 \usepackage[letterpaper,margin=0.5in]{geometry}
 \usepackage[utf8]{inputenc}
@@ -12,7 +9,7 @@
 \usepackage{enumitem}
 \DeclareFontFamily{U}{fontawesomeOne}{}
 \DeclareFontShape{U}{fontawesomeOne}{m}{n}
-  {<-> FontAwesome--fontawesomeone}{}
+{<-> FontAwesome--fontawesomeone}{}
 \DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
@@ -21,24 +18,24 @@
 % that need indentation to the level of all text in the document
 \newenvironment{indentsection}[1]%
 {\begin{list}{}%
-    {\setlength{\leftmargin}{#1}}%
-	\item[]%
+{\setlength{\leftmargin}{#1}}%
+     \item[]
 }
 {\end{list}}
 
 % opposite of above; bump a section back toward the left margin
 \newenvironment{unindentsection}[1]%
 {\begin{list}{}%
-	{\setlength{\leftmargin}{-0.5#1}}%
-	\item[]%
+{\setlength{\leftmargin}{-0.5#1}}%
+\item[]%
 }
 {\end{list}}
 
 % format two pieces of text, one left aligned and one right aligned
 \newcommand{\headerrow}[2]
 {\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
-	#1 &
-	#2 \\
+#1 &
+#2 \\
 \end{tabular*}}
 
 % make "C++" look pretty when used in text by touching up the plus signs
@@ -49,16 +46,13 @@
 \begin{document}
 
 \begin{center}
-
-% About Section
-{\LARGE \textbf{Daniel Phang}}\\
-Seattle, WA
-\vspace{0.05cm}
-\\
-\raisebox{-0.2\height} {\Large \faPhoneSquare} \ \  (000) 000-0000 \hfill\raisebox{-0.2\height}{\Large \faEnvelopeSquare} \ \ example@example.com \hfill \raisebox{-0.2\height}{\Large \faGithubSquare} \ \ github.com/example-profile \hfill \raisebox{-0.2\height}{\Large \faLinkedinSquare} \ \ linkedin.com/in/example
+	{\LARGE \textbf{Daniel Phang}}\\
+	Seattle, Washington
+	\vspace{0.05cm}
+	\\
+	\raisebox{-0.2\height} {\Large \faPhoneSquare} \ \  (000) 000-0000 \hfill\raisebox{-0.2\height}{\Large \faEnvelopeSquare} \ \ example@example.com \hfill \raisebox{-0.2\height}{\Large \faGithubSquare} \ \ github.com/example-profile \hfill \raisebox{-0.2\height}{\Large \faLinkedinSquare} \ \ linkedin.com/in/example
 \end{center}
 
-% Experience Section
 \hrule
 \vspace{-1em}
 \subsection*{\Large Experience}
@@ -67,89 +61,87 @@ Seattle, WA
 \renewcommand\labelitemii{$\bullet$}
 \begin{itemize}[leftmargin=1em]
 	\parskip=0.1em
-	
+		
+		
 	\item
-	\headerrow
-		{\textbf{Microsoft}}
-		{\textbf{Redmond, WA}}
-	\headerrow
-		{\emph{Software Engineer II}}
-		{\emph{April 2019 -- Present}}
-	\begin{itemize*}
-		\item Analyzed performance data and optimized legacy backend code for SharePoint Classic Publishing sites, improving query caching and CPU-heavy operations such as HTML rewriting.
-		\item Designed and implemented quality-of-service dashboards and performance frameworks to dynamically detect performance issues across 400+ top companies.
-		\item Improved data processing scripts that analyze daily site performance data for 1000+ companies, performance incidents, and engineering system health.
-	\end{itemize*}
-	
+	      \headerrow
+	      {\textbf{Microsoft}}
+	      {\textbf{Redmond, WA}}
+	      \headerrow
+	      {\emph{Software Engineer II}}
+	      {\emph{April 2019 -- Present}}
+	      \begin{itemize*}
+	      	\item Analyzed performance data and optimized legacy backend code for SharePoint Classic Publishing sites, improving query caching and CPU-heavy operations such as HTML rewriting.
+	      	\item Designed and implemented quality-of-service dashboards and performance frameworks to dynamically detect performance issues across 400+ top companies.
+	      	\item Improved data processing scripts that analyze daily site performance data for 1000+ companies, performance incidents, and engineering system health.
+	      \end{itemize*}
+	      	      
 	\item
-	\headerrow
-		{\textbf{Amazon.com}}
-		{\textbf{Seattle, WA}}
-	\headerrow
-		{\emph{Software Development Engineer II}}
-		{\emph{October 2016 -- January 2019}}
-	\begin{itemize*}
-		\item Designed and implemented ordering and accounting workflows to launch Prime Wardrobe US/UK/JP, a try-before-you-buy program for clothing, jewelry, and shoes.
-		\item Reduced the US Prime Wardrobe non-payment rate significantly by implementing additional validations based on customer behavior patterns.
-		\item Optimized Prime Wardrobe's Redshift cluster by intelligently distributing workloads, reducing peak CPU usage from 95\% to 50\% and peak disk usage from 90\% to 60\%.
-		\item Migrated Prime Wardrobe's accounting backend to a next-generation plugin-based service, allowing for easy future integration with other retail programs.
-	\end{itemize*}
-	\headerrow
-		{\emph{Software Development Engineer I}}
-    	{\emph{June 2014 -- October 2016}}
-	\begin{itemize*}
-		\item Implemented critical detail page and globalized item publishing features to help launch the \emph{Rest of World} project, which enabled customers from 200+ countries to purchase digital software and video games.
-		\item Designed and implemented an automated accounting solution for the Digital Software \& Video Games business, reducing the work required in monthly accounting close from 10+ hours to 2 hours.
-		\item Created an internal Django website for vendor managers to manage pricing, blacklisting, and inventory for software and video games, reducing monthly operational time spent from 20+ hours to 10 hours.
-	\end{itemize*}
-	
+	      \headerrow
+	      {\textbf{Amazon.com}}
+	      {\textbf{Seattle, WA}}
+	      \headerrow
+	      {\emph{Software Development Engineer II}}
+	      {\emph{October 2016 -- January 2019}}
+	      \begin{itemize*}
+	      	\item Designed and implemented ordering and accounting workflows to launch Prime Wardrobe US/UK/JP, a try-before-you-buy program for clothing, jewelry, and shoes.
+	      	\item Reduced the US Prime Wardrobe non-payment rate significantly by implementing additional validations based on customer behavior patterns.
+	      	\item Optimized Prime Wardrobe's Redshift cluster by intelligently distributing workloads, reducing peak CPU usage from 95\% to 50\% and peak disk usage from 90\% to 60\%.
+	      	\item Migrated Prime Wardrobe's accounting backend to a next-generation plugin-based service, allowing for easy future integration with other retail programs.
+	      \end{itemize*}
+	      \headerrow
+	      {\emph{Software Development Engineer I}}
+	      {\emph{June 2014 -- October 2016}}
+	      \begin{itemize*}
+	      	\item Implemented critical detail page and globalized item publishing features to help launch the \emph{Rest of World} project, which enabled customers from 200+ countries to purchase digital software and video games.
+	      	\item Designed and implemented an automated accounting solution for the Digital Software \& Video Games business, reducing the work required in monthly accounting close from 10+ hours to 2 hours.
+	      	\item Created an internal Django website for vendor managers to manage pricing, blacklisting, and inventory for software and video games, reducing monthly operational time spent from 20+ hours to 10 hours.
+	      \end{itemize*}
+	      	      
 	\item
-	\headerrow
-		{\textbf{Crunchyroll}}
-		{\textbf{San Francisco, CA}}
-	\headerrow
-		{\emph{Engineering Intern}}
-		{\emph{June 2013 -- August 2013}}
-	\begin{itemize*}
-    \item Developed a new version of Crunchyroll’s application for the Roku platform.
-    \item Worked with a designer to revamp the application’s user interface, improved HD video playback, and implemented a multilingual translations framework.
-	\end{itemize*}
+	      \headerrow
+	      {\textbf{Crunchyroll}}
+	      {\textbf{San Francisco, CA}}
+	      \headerrow
+	      {\emph{Engineering Intern}}
+	      {\emph{June 2013 -- August 2013}}
+	      \begin{itemize*}
+	      	\item Developed a new version of Crunchyroll’s application for the Roku platform.
+	      	\item Worked with a designer to revamp the application’s user interface, improved HD video playback, and implemented a multilingual translations framework.
+	      \end{itemize*}
+	      	      
 \end{itemize}
 
 \hrule
 \vspace{-1em}
-
-% Skills Section
 \subsection*{\Large Skills}
 
 \hyphenpenalty=1000
 \begin{itemize}[leftmargin=1em,noitemsep]
 	\item \textbf{Languages:}
-	C\#, HTML/CSS, Java, JavaScript, \LaTeX, Python, SQL
+	      C\#, HTML/CSS, Java, JavaScript, \LaTeX, Python, SQL
 	\item \textbf{Software:}
-	Atlassian (Bitbucket, Jira, Confluence), AWS (DynamoDB, EC2, Lambda, RDS, Redshift, S3, SQS), Microsoft (Azure DevOps, Visual Studio), DigitalOcean, Django, Heroku, IntelliJ IDEA, Selenium
+	      Atlassian (Bitbucket, Jira, Confluence), AWS (DynamoDB, EC2, Lambda, RDS, Redshift, S3, SQS), Microsoft (Azure DevOps, Visual Studio), DigitalOcean, Django, Heroku, IntelliJ IDEA, Selenium
 \end{itemize}
 
 \hrule
 \vspace{-1em}
-
-% Education Section
 \subsection*{\Large Education}
 
 \begin{itemize}[leftmargin=1em]
 	\parskip=0.1em
-
-	\item 
-	\headerrow
-		{\textbf{Lehigh University}}
-		{\textbf{Bethlehem, PA}}
-	\\
-	\headerrow
-		{\emph{M.S. Computer Science} (\textbf{GPA:} 3.96/4.00)} 
-		{\emph{August 2013 -- May 2014}}
-	\headerrow
-		{\emph{B.S. Computer Engineering (Minor in Economics)} (\textbf{GPA:} 3.77/4.00)}
-		{\emph{August 2009 -- May 2013}}
+		
+	\item
+	      \headerrow
+	      {\textbf{Lehigh University}}
+	      {\textbf{Bethlehem, PA}}
+	      \headerrow
+	      {\emph{M.S. Computer Science} (\textbf{GPA:} 3.96/4.00)}
+	      {\emph{August 2013 -- May 2014}}
+	      \headerrow
+	      {\emph{B.S. Computer Engineering (Minor in Economics)} (\textbf{GPA:} 3.77/4.00)}
+	      {\emph{August 2009 -- May 2013}}
+	      	      
 \end{itemize}
 
 \end{document}
