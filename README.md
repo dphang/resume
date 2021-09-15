@@ -40,4 +40,4 @@ Feel free to create a pull request if there are any improvements or additions yo
 
 This project is licensed under the MIT License.
 
-The resume template is based on another template, but I have since adapted it to better fit my needs. Unfortunately, after many years, I've forgotten where the original template came from. If anyone knows, please let me know and I will give credit accordingly.
+The resume template is based on another template, but I have since adapted it to better fit my needs. Unfortunately, after many years, I've forgotten where the original template came from. If parts of this template look familiar to you, please let me know and I will give credit accordingly.
