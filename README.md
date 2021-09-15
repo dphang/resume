@@ -9,7 +9,7 @@ The resume is broken up into the following sections:
 * Skills: list out programming languages, software and platforms you've used.
 * Education: list out your college and degrees.
 
-\* I recommend keeping a resume to a single page as it forces you to list only the most important things, and because people may not read your resume if it's too long. Personally, this resume format has worked well at least get recruiter interviews when applying to both small and large tech companies (e.g Microsoft, Google, Square, Uber, Compass, etc.) and mostly has no issues being parsed by automated resume screeners. Of course, feel free to extend it to two or even three pages if you have significant experience.
+\* I recommend keeping a resume to a single page as it forces you to list only the most important things, and because people may not read your resume if it's too long. Personally, this resume format has worked well to at least get recruiter interviews when applying to both small and large tech companies (e.g Microsoft, Google, Square, Uber, Compass, etc.). I haven't seen any major issues being parsed by automated resume screeners. Of course, feel free to extend it to two or even three pages if you have significant experience.
 
 ## Usage
 
